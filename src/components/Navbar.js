@@ -14,27 +14,27 @@ function Navbar() {
               Andrei Chirita
             </a>
 
-            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="12" height="24">
-                    <FilePerson />
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <FilePerson size={24} />
                   </svg>
                   About
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="12" height="24">
-                    <FileEarmarkTextFill />
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <FileEarmarkTextFill size={24} />
                   </svg>
                   Resume
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="12" height="24">
-                    <CollectionFill />
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <CollectionFill size={24} />
                   </svg>
                   Projects
                 </a>
