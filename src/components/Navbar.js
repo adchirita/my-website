@@ -3,7 +3,7 @@ import { CollectionFill, FileEarmarkTextFill, FilePerson } from 'react-bootstrap
 
 function Navbar() {
   return (
-    <header>
+    <header class="Header">
       <div class="py-2 text-bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
