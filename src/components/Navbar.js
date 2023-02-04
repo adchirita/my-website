@@ -16,7 +16,7 @@ function Navbar() {
 
             <ul class="nav">
               <li>
-                <a href="#" class="nav-link text-white">
+                <a href="/about" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="30" height="30">
                     <FilePerson size={30} />
                   </svg>
@@ -26,17 +26,17 @@ function Navbar() {
               <li>
                 <a href="#" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="30" height="30">
-                    <FileEarmarkTextFill size={30} />
-                  </svg>
-                  <p class="h4">Resume</p>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
                     <CollectionFill size={30} />
                   </svg>
                   <p class="h4">Projects</p>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
+                    <FileEarmarkTextFill size={30} />
+                  </svg>
+                  <p class="h4">Contact</p>
                 </a>
               </li>
             </ul>

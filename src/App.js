@@ -2,13 +2,26 @@ import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar';
 import MainCover from './components/MainCover';
+import React from 'react';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <MainCover />
-    </div>
+    <main>
+      <nav>
+        <Navbar />
+      </nav>
+      <Routes>
+
+        <Route path="/" element={<MainCover />} />
+
+        <Route path="/about" element={<p>here goes your about page!</p>} />
+
+        <Route path="/projects" element={<p>here goes your projects page!</p>} />
+
+        <Route path="/contact" element={<p>here goes your contact page!</p>} />
+      </Routes>
+    </main>
   );
 }
 
