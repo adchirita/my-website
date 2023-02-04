@@ -17,26 +17,26 @@ function Navbar() {
             <ul class="nav">
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                    <FilePerson size={24} />
+                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
+                    <FilePerson size={30} />
                   </svg>
-                  About
+                  <p class="h4">About</p>
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                    <FileEarmarkTextFill size={24} />
+                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
+                    <FileEarmarkTextFill size={30} />
                   </svg>
-                  Resume
+                  <p class="h4">Resume</p>
                 </a>
               </li>
               <li>
                 <a href="#" class="nav-link text-white">
-                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                    <CollectionFill size={24} />
+                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
+                    <CollectionFill size={30} />
                   </svg>
-                  Projects
+                  <p class="h4">Projects</p>
                 </a>
               </li>
             </ul>
