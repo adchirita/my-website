@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <header class="Header">
+    <header>
       <div class="py-2 text-bg-dark">
         <div class="px-5">
           <div class="d-flex align-items-center">
