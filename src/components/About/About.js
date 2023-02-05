@@ -3,7 +3,7 @@ import TechStack from "./TechStack";
 
 function About() {
   return (
-    <div class="text-bg-dark ">
+    <div>
       <Description />
       <TechStack />
     </div>
