@@ -6,10 +6,10 @@ function Navbar() {
   return (
     <header class="Header">
       <div class="py-2 text-bg-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <Link to="/" class="me-lg-auto text-white text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <div class="px-5">
+          <div class="d-flex align-items-center">
+            <Link to="/" class="me-auto text-white text-decoration-none">
+              <svg class="" width="40" height="32" role="img" aria-label="Bootstrap">
 
               </svg>
               Andrei Chirita

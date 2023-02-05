@@ -1,4 +1,5 @@
 import './MainCover.scss';
+import { Link } from 'react-router-dom';
 
 function MainCover() {
   return (
@@ -11,7 +12,7 @@ function MainCover() {
         <br />my development process to avoid testing headaches down the road. I am passionate about learning 
         <br />various technologies to add to my tech stack and have no trouble staying up to date on the latest tech.</p>
         <br />
-        <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Check out some of my projects</a>
+        <Link to="/about" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more about me</Link>
       </div>
     </main>
   )
