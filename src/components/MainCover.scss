@@ -9,5 +9,32 @@
 }
 
 .DivContainer {
-  margin-left: 10%;
+  padding-top: 5%;
+}
+
+
+
+.box {
+  position: relative;
+  width: 80%;
+  border-radius: 30%;
+  padding: 10px;
+  background-color: rgb(133, 131, 131);
+}
+
+.avatar-wobble {
+  border-radius: 250px 750px 250px 750px /
+                 750px 250px 750px 250px;
+  animation: wobble 15s ease-in-out alternate infinite;
+}
+
+@keyframes wobble {
+  50% {
+    border-radius: 750px 550px 350px 750px /
+                   350px 750px 550px 450px;
+  }
+  100% {
+    border-radius: 750px 250px 750px 250px /
+                   250px 750px 250px 750px;
+  }
 }
