@@ -2,6 +2,11 @@
   align-items: center;
   height: 90.8vh;
   width: 100vw;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right, #212529 40%, #ffffff00), url('../images/MainBackground.jpg');
 }
 
 .DivContainer {
