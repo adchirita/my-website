@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <header>
-      <div class="py-2 text-bg-dark">
+      <div class="py-2 NavHeader">
         <div class="px-5">
           <div class="d-flex align-items-center">
             <Link to="/" class="me-auto text-white text-decoration-none">

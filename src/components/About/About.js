@@ -5,7 +5,7 @@ import './About.scss';
 
 function About() {
   return (
-    <div>
+    <div class="AboutContainer">
       <Description />
       <TechStack />
       <div class="text-center">

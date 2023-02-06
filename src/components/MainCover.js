@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function MainCover() {
   return (
     <main class="d-flex flex-column justify-content-center align-items-start text-light px-3 MainWrapper">
-      <div class="d-flex flex-column align-items-start DivContainer">
+      <div class="DivContainer">
         <h1 class="display-2"><strong>Hey, I'm Andrei.</strong></h1>
         <br />
         <p class="lead text-start">I am a motivated full-stack web developer with proficiency in Javascript, React, NodeJS, and Express
