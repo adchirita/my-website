@@ -5,11 +5,10 @@ import './About.scss';
 
 function About() {
   return (
-    <div class="AboutContainer">
-      <Description />
-      <TechStack />
-      <div class="text-center">
-      <Link to="/projects" class="mb-4 btn btn-lg btn-light fw-bold border-white bg-white">Check out some of my projects</Link>
+    <div>
+      <div class="AboutContainer d-flex col-md-9 text-light align-items-center justify-content-start">
+        <Description />
+        <TechStack />
       </div>
     </div>
   )

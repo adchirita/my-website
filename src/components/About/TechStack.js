@@ -14,7 +14,6 @@ function TechStack() {
 
   return (
     <main>
-      <h1 class="display-2 text-white text-center"><strong><u>Tech Stack</u></strong></h1>
       <div class="bg-secondary mx-auto rounded-5 py-3 d-grid gap-3 TechContainer">
         <div class="d-flex flex-row justify-content-between py-3">
           {<img src={images['javascript.svg']} />}

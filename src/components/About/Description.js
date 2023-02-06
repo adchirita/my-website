@@ -1,20 +1,23 @@
-
+import { Link } from "react-router-dom";
 
 function Description() {
   return (
-    <main class="d-flex flex-column text-light align-items-center py-5">
-        <h1 class="display-2"><strong><u>About</u></strong></h1>
+    <main class="d-flex flex-row justify-content-center align-items-center text-light">
+      <div class="px-5">
+        <h1 class="display-2"><strong>About</strong></h1>
         <br />
-        <p class="lead text-start">I am a motivated full-stack web developer with a passion for programming and computer software & hardware. <br />
-        As a former QA Analyst, I have developed a strong background in software testing and was exposed to automation <br />
-        testing using python and selenium. I worked closely with Bell professionals and developers in agile and waterfall <br />
-        methodologies, and have become very familiar with the software development lifecycle. Have served as a Sr. QA Analyst<br />
-        to successfully deliver one of Bell's top 3 projects in 2020, in preparation for their new devices and modems to be<br />
-        linked with their Maximo database. I aim to take what I have learned as a QA Analyst and apply that to my software <br />
-        development mentality, finding and stopping bugs before they reach the test environment. Having experienced automation<br />
-        testing, I found a true passion for programming and look to find a fulfilling role as a full-stack web developer where <br />
-        I can grow my skills and contribute efficiently to something bigger.</p>
-        <br />
+        <p class="lead text-start">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.
+          As a former QA Analyst, I have developed a strong background in software testing and was exposed to automation
+          testing using python and selenium. I worked closely with Bell professionals and developers in agile and waterfall
+          methodologies, and have become very familiar with the software development lifecycle. Have served as a Sr. QA Analyst
+          to successfully deliver one of Bell's top 3 projects in 2020, in preparation for their new devices and modems to be
+          linked with their Maximo database. I aim to take what I have learned as a QA Analyst and apply that to my software
+          development mentality, finding and stopping bugs before they reach the test environment. Having experienced automation
+          testing, I found a true passion for programming and look to find a fulfilling role as a full-stack web developer where
+          I can grow my skills and contribute efficiently to something bigger. </p>
+          <br />
+          <Link to="/projects" class="btn btn-lg btn-light fw-bold border-white bg-white">Check out some of my projects</Link>
+      </div>
     </main>
   )
 }
