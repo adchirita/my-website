@@ -1,10 +1,11 @@
 import Description from "./Description"
 import TechStack from "./TechStack";
 import { Link } from "react-router-dom";
+import './About.scss';
 
 function About() {
   return (
-    <div>
+    <div class="AboutContainer">
       <Description />
       <TechStack />
       <div class="text-center">
