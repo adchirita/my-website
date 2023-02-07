@@ -1,10 +1,47 @@
 import { Linkedin, Github } from 'react-bootstrap-icons'
-import { Form, Col, Button } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap'
+import React from 'react';
 import './Contact.scss'
 
 function Contact() {
+  const initialFormData = Object.freeze({
+    name: "",
+    email: "",
+    query: ""
+  });
+
+  const [formData, updateFormData] = React.useState(initialFormData);
+
+  const handleChange = (e) => {
+    updateFormData({
+      ...formData,
+
+      [e.target.name]: e.target.value.trim()
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    alert(`Thank you for your message. Your query has been forwarded.`);
+    const templateId = 'template_ldfq9ma';
+    const serviceID = "service_52it05e";
+    sendFeedback(serviceID, templateId, { from_name: formData.name, message_html: formData.query, email: formData.email })
+
+    console.log(formData);
+  };
+
+  const sendFeedback = (serviceID, templateId, variables) => {
+    window.emailjs.send(
+      serviceID, templateId,
+      variables
+    ).then(res => {
+      console.log('Email successfully sent!')
+    })
+      .catch(err => console.error('There has been an Error.', err))
+  }
+
   return (
-    <main>
+    <main class="Contactmain">
       <div class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-white">Socials</h1>
         <div class="col-lg-6 mx-auto">
@@ -19,20 +56,20 @@ function Contact() {
         <Form>
           <Form.Group controlId="formGridName">
             <Form.Label className="text-white">Name</Form.Label>
-            <Form.Control className="border border-3 bg-transparent" name="name" type="name" placeholder="Name" />
+            <Form.Control onChange={handleChange} className=" text-white border border-3 bg-transparent" name="name" type="name" placeholder="Name" />
           </Form.Group>
 
           <Form.Group controlId="formGridEmail">
             <Form.Label className="text-white pt-3">Email</Form.Label>
-            <Form.Control className="border border-3 bg-transparent" name="email" type="email" placeholder="Enter email"
+            <Form.Control onChange={handleChange} className="text-white border border-3 bg-transparent" name="email" type="email" placeholder="Enter email"
             />
           </Form.Group>
           <Form.Group id="formGridQuery">
             <Form.Label className="text-white pt-3">Message</Form.Label>
-            <Form.Control className="border border-3 bg-transparent" name="query" as="textarea" rows={3} />
+            <Form.Control onChange={handleChange} className="text-white border border-3 bg-transparent" name="query" as="textarea" rows={3} />
           </Form.Group>
           <div class="text-center">
-            <Button className="mt-3" variant="outline-light" size="lg" type="submit">
+            <Button onClick={handleSubmit} className="mt-3" variant="outline-light" size="lg" type="submit">
               Submit
             </Button>
           </div>
