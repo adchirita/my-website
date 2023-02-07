@@ -9,7 +9,7 @@ function Projects() {
           <div class="row row-cols-sm-2 g-5">
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/Adventure.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/Adventure.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Adventure Scribe</h4>
                 <div class="card-body">
                   <p>An app designed to be used in conjuction with tabletop adventure games, where users can register/login and create campaigns. Within each campaign, a user can create markers on any map they upload and assign notes to it.</p>
@@ -31,7 +31,7 @@ function Projects() {
 
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/Jungle.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/Jungle.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Jungle</h4>
                 <div class="card-body">
                   <p>An app designed to serve as a commerce platform where a user can navigate a store of shrubbery to select plants they would like to purchase. Addition of plants and various small trees with cart functionality and checkout options.</p>
@@ -54,7 +54,7 @@ function Projects() {
           <div class="row row-cols-sm-2 g-5 py-5">
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/Scheduler.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/Scheduler.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Interview Scheduler</h4>
                 <div class="card-body">
                   <p>A scheduling app created to help users easily schedule interviews within a 12-5 time frame Monday-Friday. Real-time updates from the database on interview addition, edit, or deletion. User is given a few interviewers to choose from.</p>
@@ -77,7 +77,7 @@ function Projects() {
 
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/Bazaar.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/Bazaar.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Bazaar</h4>
                 <div class="card-body">
                   <p>Bazaar is an app influenced by kijiji, where a user can browse available items for auction and can filter through the items available in the database. Purchases can be made and admins are able to edit, approve, or delete items as they see fit.</p>
@@ -100,7 +100,7 @@ function Projects() {
           <div class="row row-cols-sm-2 g-5">
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/Tweeter.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/Tweeter.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Tweeter</h4>
                 <div class="card-body">
                   <p>Tweeter is designed to serve as a twitter clone using ajax where the user can create tweets within certain text limitations. These tweets are then displayed in the feed in real time.</p>
@@ -122,7 +122,7 @@ function Projects() {
 
             <div class="col">
               <div class="card text-white bg-dark">
-                <img src={require('../images/TinyApp.png')} class="card-img-top ImageCard"></img>
+                <img src={require('../images/TinyApp.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">TinyApp</h4>
                 <div class="card-body">
                   <p>An app designed to shorten links a la bitly, where a user can create an account and create various short links to sites of their choosing, which are then linked to their account. Links can be shared freely with others.</p>

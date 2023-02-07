@@ -47,8 +47,8 @@ function Contact() {
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4 pb-3 text-white">Get in touch with me via a linkedin message or the email contact form below, I will get back to you as soon as possible. Thanks and please see my github to stay up to date on my latest projects.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="https://www.linkedin.com/in/adchirita/" target="_blank" class="btn btn-outline-light btn-lg px-4" role="button">Linked<Linkedin class="mb-1" size="25" /></a>
-            <a href="https://github.com/Pitching" target="_blank" role="button" class="btn btn-outline-light btn-lg px-4">Github <Github class="mb-1" size="25" /></a>
+            <a href="https://www.linkedin.com/in/adchirita/" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-lg px-4" role="button">Linked<Linkedin class="mb-1" size="25" /></a>
+            <a href="https://github.com/Pitching" target="_blank" rel="noreferrer" role="button" class="btn btn-outline-light btn-lg px-4">Github <Github class="mb-1" size="25" /></a>
           </div>
         </div>
       </div>

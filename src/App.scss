@@ -8,3 +8,54 @@ body {
   background-color: #212529;
   background-image: linear-gradient(to left, #55585c, #212529);
 }
+
+
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeInAnimationOthers 1s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadeInAnimationOthers {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#first {
+  animation-delay: 200ms;
+}
+
+#second {
+  animation-delay: 600ms;
+}
+
+#third {
+  animation-delay: 1000ms;
+}
+
+#fourth {
+  animation-delay: 1400ms;
+}
+
+#fifth {
+  animation-delay: 1800ms;
+}
