@@ -5,9 +5,9 @@ function Projects() {
     <main>
       <div class="ProjectsContainer album py-5">
         <div class="container">
-          <h1 class="text-center pb-5 display-2 text-white glow"><strong>Portfolio</strong></h1>
+          <h1 class="text-center pb-5 display-2 text-white glow"><strong class="fadeIn" id="first">Portfolio</strong></h1>
           <div class="row row-cols-sm-2 g-5">
-            <div class="col">
+            <div class="col fadeIn" id="second">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Adventure.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Adventure Scribe</h4>
@@ -29,7 +29,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="col">
+            <div class="col fadeIn" id="third">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Jungle.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Jungle</h4>
