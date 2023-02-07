@@ -32,3 +32,18 @@
                    250px 750px 250px 750px;
   }
 }
+
+.glow {
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px fff, 0 0 20px rgb(255, 255, 255)
+  }
+  to {
+    text-shadow: 0 0 20px #fff
+  }
+}

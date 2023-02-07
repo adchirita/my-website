@@ -5,7 +5,7 @@ function Projects() {
     <main>
       <div class="ProjectsContainer album py-5">
         <div class="container">
-          <h1 class="text-center pb-5 display-2 text-white"><strong>Portfolio</strong></h1>
+          <h1 class="text-center pb-5 display-2 text-white glow"><strong>Portfolio</strong></h1>
           <div class="row row-cols-sm-2 g-5">
             <div class="col">
               <div class="card text-white bg-dark">

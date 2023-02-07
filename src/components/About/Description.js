@@ -4,7 +4,7 @@ function Description() {
   return (
     <main class="d-flex flex-row justify-content-center align-items-center text-light">
       <div class="px-5">
-        <h1 class="display-2"><strong>About</strong></h1>
+        <h1 class="display-2 glow"><strong>About</strong></h1>
         <br />
         <p class="lead text-start">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.
           As a former QA Analyst, I have developed a strong background in software testing and was exposed to automation

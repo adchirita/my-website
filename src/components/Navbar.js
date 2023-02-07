@@ -25,12 +25,12 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/about" class="nav-link text-white">
+                <a download="Andrei_Chirita.pdf" href={require("../images/Resume.pdf")} class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="30" height="30">
                     <FileEarmarkTextFill size={30} />
                   </svg>
                   <p class="h4">Resume</p>
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="/projects" class="nav-link text-white">

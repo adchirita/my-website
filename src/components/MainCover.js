@@ -5,7 +5,7 @@ function MainCover() {
   return (
     <main class="d-flex flex-row justify-content-center align-items-center text-light MainWrapper">
       <div class="DivContainer px-5">
-        <h1 class="display-2"><strong>Hey, I'm Andrei.</strong></h1>
+        <h1 class="display-2 glow"><strong>Hey, I'm Andrei.</strong></h1>
         <br />
         <p class="lead text-start">I am a motivated full-stack web developer with proficiency in Javascript, React, NodeJS, and Express
           <br />and am looking for a role where I can apply my knowledge and expertise as a QA Analyst to streamline
