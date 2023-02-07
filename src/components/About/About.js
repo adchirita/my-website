@@ -1,6 +1,5 @@
 import Description from "./Description"
 import TechStack from "./TechStack";
-import { Link } from "react-router-dom";
 import './About.scss';
 
 function About() {

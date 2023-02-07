@@ -1,13 +1,19 @@
-import './Projects.scss'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import './Projects.scss';
 
 function Projects() {
+  useEffect(() => {
+    Aos.init();
+  }, [])
   return (
     <main>
       <div class="ProjectsContainer album py-5">
         <div class="container">
           <h1 class="text-center pb-5 display-2 text-white glow"><strong class="fadeIn" id="first">Portfolio</strong></h1>
           <div class="row row-cols-sm-2 g-5">
-            <div class="col fadeIn" id="second">
+            <div class="col" data-aos="fade-right" data-aos-duration="800">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Adventure.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Adventure Scribe</h4>
@@ -29,7 +35,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="col fadeIn" id="third">
+            <div class="col" data-aos="fade-left" data-aos-duration="800" data-aos-offset="400">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Jungle.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Jungle</h4>
@@ -52,7 +58,7 @@ function Projects() {
           </div>
 
           <div class="row row-cols-sm-2 g-5 py-5">
-            <div class="col">
+            <div class="col" data-aos="fade-right" data-aos-duration="800" data-aos-offset="400">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Scheduler.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Interview Scheduler</h4>
@@ -75,7 +81,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="800" data-aos-offset="400">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Bazaar.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Bazaar</h4>
@@ -98,7 +104,7 @@ function Projects() {
           </div>
 
           <div class="row row-cols-sm-2 g-5">
-            <div class="col">
+            <div class="col" data-aos="fade-right" data-aos-duration="800" data-aos-offset="400">
               <div class="card text-white bg-dark">
                 <img src={require('../images/Tweeter.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">Tweeter</h4>
@@ -120,7 +126,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="col">
+            <div class="col" data-aos="fade-left" data-aos-duration="800" data-aos-offset="400">
               <div class="card text-white bg-dark">
                 <img src={require('../images/TinyApp.png')} class="card-img-top ImageCard" alt=""></img>
                 <h4 class="card-title text-center pt-3 fw-bold">TinyApp</h4>
