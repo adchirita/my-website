@@ -3,6 +3,7 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import MainCover from './components/MainCover';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import About from './components/About/About';
@@ -21,7 +22,7 @@ function App() {
 
         <Route path="/projects" element={<Projects />} />
 
-        <Route path="/contact" element={<p>here goes your contact page!</p>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
   );

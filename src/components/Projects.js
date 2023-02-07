@@ -5,7 +5,7 @@ function Projects() {
     <main>
       <div class="ProjectsContainer album py-5">
         <div class="container">
-          <h1 class="text-center pb-5 display-2 text-white"><strong>Projects</strong></h1>
+          <h1 class="text-center pb-5 display-2 text-white"><strong>Portfolio</strong></h1>
           <div class="row row-cols-sm-2 g-5">
             <div class="col">
               <div class="card text-white bg-dark">
@@ -15,14 +15,14 @@ function Projects() {
                   <p>An app designed to be used in conjuction with tabletop adventure games, where users can register/login and create campaigns. Within each campaign, a user can create markers on any map they upload and assign notes to it.</p>
                   <div class="d-flex justify-content-center align-items-center">
                     <div class="btn-group flex-wrap py-2">
-                      <button role="button" class="btn btn-sm btn-outline-secondary">ReactJS</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">NodeJS</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">SASS</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">Leaflet</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">Bootstrap</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">ReactRouter</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">Express</button>
-                      <button role="button" class="btn btn-sm btn-outline-secondary">BCryptJS</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">ReactJS</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">NodeJS</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">SASS</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Leaflet</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Bootstrap</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">ReactRouter</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Express</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">BCryptJS</button>
                     </div>
                   </div>
                 </div>
