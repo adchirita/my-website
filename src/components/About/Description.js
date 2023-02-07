@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function Description() {
   return (
-    <main class="d-flex flex-row justify-content-center align-items-center text-light">
-      <div class="px-5">
-        <h1 class="display-2 glow"><strong class="fadeIn" id="first">About</strong></h1>
+    <main className="d-flex flex-row justify-content-center align-items-center text-light">
+      <div className="px-5">
+        <h1 className="display-2 glow"><strong className="fadeIn" id="first">About</strong></h1>
         <br />
-        <p class="lead text-start fadeIn" id="second">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.
+        <p className="lead text-start fadeIn" id="second">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.
           As a former QA Analyst, I have developed a strong background in software testing and was exposed to automation
           testing using python and selenium. I worked closely with Bell professionals and developers in agile and waterfall
           methodologies, and have become very familiar with the software development lifecycle. Have served as a Sr. QA Analyst
@@ -16,7 +16,7 @@ function Description() {
           testing, I found a true passion for programming and look to find a fulfilling role as a full-stack web developer where
           I can grow my skills and contribute efficiently to something bigger. </p>
           <br />
-          <Link to="/projects" class="btn btn-lg btn-light fw-bold border-white bg-white fadeIn" id="third">Check out some of my projects</Link>
+          <Link to="/projects" className="btn btn-lg btn-light fw-bold border-white bg-white fadeIn" id="third">Check out some of my projects</Link>
       </div>
     </main>
   )

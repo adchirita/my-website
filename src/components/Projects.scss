@@ -1,11 +1,14 @@
 .ProjectsContainer {
-  transform:translateY(150px);
+  padding-top: 180px;
+  padding-bottom: 50px;
 }
 
 .ImageCard {
   max-height: 325px;
 }
 
-.Stackbuttons {
-  cursor: pointer !important;
+.PortfolioContainer {
+  overflow-x: hidden;
+  padding-right: 10%;
+  padding-left: 10%;
 }

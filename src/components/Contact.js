@@ -41,18 +41,18 @@ function Contact() {
   }
 
   return (
-    <main class="Contactmain">
-      <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-2 text-white pb-3 glow"><strong class="fadeIn" id="first">Socials</strong></h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4 pb-3 text-white fadeIn" id="second">Get in touch with me via a linkedin message or the email contact form below, I will get back to you as soon as possible. Thanks and please see my github to stay up to date on my latest projects.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="https://www.linkedin.com/in/adchirita/" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-lg px-4 fadeIn"id="third" role="button">Linked<Linkedin class="mb-1" size="25" /></a>
-            <a href="https://github.com/Pitching" target="_blank" rel="noreferrer" role="button" class="btn btn-outline-light btn-lg px-4 fadeIn" id="third">Github <Github class="mb-1" size="25" /></a>
+    <main className="Contactmain">
+      <div className="px-4 py-5 my-5 text-center">
+        <h1 className="display-2 text-white pb-3 glow"><strong className="fadeIn" id="first">Socials</strong></h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4 pb-3 text-white fadeIn" id="second">Get in touch with me via a linkedin message or the email contact form below, I will get back to you as soon as possible. Thanks and please see my github to stay up to date on my latest projects.</p>
+          <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://www.linkedin.com/in/adchirita/" target="_blank" rel="noreferrer" className="btn btn-outline-light btn-lg px-4 fadeIn"id="third" role="button">Linked<Linkedin className="mb-1" size="25" /></a>
+            <a href="https://github.com/Pitching" target="_blank" rel="noreferrer" role="button" className="btn btn-outline-light btn-lg px-4 fadeIn" id="third">Github <Github className="mb-1" size="25" /></a>
           </div>
         </div>
       </div>
-      <div class="container w-50 fadeIn" id="fourth">
+      <div className="container w-50 fadeIn" id="fourth">
         <Form>
           <Form.Group controlId="formGridName">
             <Form.Label className="text-white">Name</Form.Label>
@@ -68,7 +68,7 @@ function Contact() {
             <Form.Label className="text-white pt-3">Message</Form.Label>
             <Form.Control onChange={handleChange} className="text-white border border-3 bg-transparent" name="query" as="textarea" rows={3} />
           </Form.Group>
-          <div class="text-center">
+          <div className="text-center">
             <Button onClick={handleSubmit} className="mt-3" variant="outline-light" size="lg" type="submit">
               Submit
             </Button>

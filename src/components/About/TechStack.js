@@ -14,33 +14,33 @@ function TechStack() {
 
   return (
     <main>
-      <div class="bg-secondary mx-auto rounded-5 py-3 d-grid gap-3 TechContainer fadeIn" id="fourth">
-        <div class="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
-          {<img class="stackIcon" id="first" src={images['javascript.svg']} alt=""/>}
-          {<img class="stackIcon" id="first" src={images['bootstrap.svg']} alt=""/>}
-          {<img class="stackIcon" id="first" src={images['css-3.svg']} alt=""/>}
-          {<img class="stackIcon" id="first" src={images['express.svg']} alt=""/>}
+      <div className="bg-secondary mx-auto rounded-5 py-3 d-grid gap-3 TechContainer fadeIn" id="fourth">
+        <div className="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
+          {<img className="stackIcon" id="first" src={images['javascript.svg']} alt=""/>}
+          {<img className="stackIcon" id="first" src={images['bootstrap.svg']} alt=""/>}
+          {<img className="stackIcon" id="first" src={images['css-3.svg']} alt=""/>}
+          {<img className="stackIcon" id="first" src={images['express.svg']} alt=""/>}
         </div>
-        <div class="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
-          {<img class="stackIcon" id="second" src={images['git-icon.svg']} alt=""/>}
-          {<img class="stackIcon" id="second" src={images['html-5.svg']} alt=""/>}
-          {<img class="stackIcon" id="second" src={images['leaflet.svg']} alt=""/>}
-          {<img class="stackIcon" id="second" src={images['git-icon.svg']} alt=""/>}
+        <div className="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
+          {<img className="stackIcon" id="second" src={images['git-icon.svg']} alt=""/>}
+          {<img className="stackIcon" id="second" src={images['html-5.svg']} alt=""/>}
+          {<img className="stackIcon" id="second" src={images['leaflet.svg']} alt=""/>}
+          {<img className="stackIcon" id="second" src={images['git-icon.svg']} alt=""/>}
         </div>
-        <div class="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
-          {<img class="stackIcon" id="third" src={images['mocha.svg']} alt=""/>}
-          {<img class="stackIcon" id="third" src={images['nodejs-icon.svg']} alt=""/>}
-          {<img class="stackIcon" id="third" src={images['postgresql.svg']} alt=""/>}
-          {<img class="stackIcon" id="third" src={images['python.svg']} alt=""/>}
+        <div className="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
+          {<img className="stackIcon" id="third" src={images['mocha.svg']} alt=""/>}
+          {<img className="stackIcon" id="third" src={images['nodejs-icon.svg']} alt=""/>}
+          {<img className="stackIcon" id="third" src={images['postgresql.svg']} alt=""/>}
+          {<img className="stackIcon" id="third" src={images['python.svg']} alt=""/>}
         </div>
-        <div class="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
-          {<img class="stackIcon" id="fourth" src={images['rails.svg']} alt=""/>}
-          {<img class="stackIcon" id="fourth" src={images['react.svg']} alt=""/>}
-          {<img class="stackIcon" id="fourth" src={images['sass.svg']} alt=""/>}
-          {<img class="stackIcon" id="fourth" src={images['selenium.svg']} alt=""/>}
+        <div className="d-flex flex-row justify-content-between py-3 fadeIn" id="fifth">
+          {<img className="stackIcon" id="fourth" src={images['rails.svg']} alt=""/>}
+          {<img className="stackIcon" id="fourth" src={images['react.svg']} alt=""/>}
+          {<img className="stackIcon" id="fourth" src={images['sass.svg']} alt=""/>}
+          {<img className="stackIcon" id="fourth" src={images['selenium.svg']} alt=""/>}
         </div>
-        <div class="d-flex flex-row justify-content-center py-3 fadeIn" id="fifth">
-          {<img class="stackIcon" id="fifth" src={images['storybook-icon.svg']} alt=""/>}
+        <div className="d-flex flex-row justify-content-center py-3 fadeIn" id="fifth">
+          {<img className="stackIcon" id="fifth" src={images['storybook-icon.svg']} alt=""/>}
         </div>
       </div>
     </main>
