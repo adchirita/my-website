@@ -1,5 +1,5 @@
 import './Navbar.scss';
-import { CollectionFill, FileEarmarkTextFill, FilePerson } from 'react-bootstrap-icons';
+import { CollectionFill, FileEarmarkTextFill, FilePerson, EnvelopeFill } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -25,6 +25,14 @@ function Navbar() {
                 </Link>
               </li>
               <li>
+                <Link to="/about" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="30" height="30">
+                    <FileEarmarkTextFill size={30} />
+                  </svg>
+                  <p class="h4">Resume</p>
+                </Link>
+              </li>
+              <li>
                 <Link to="/projects" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="30" height="30">
                     <CollectionFill size={30} />
@@ -35,7 +43,7 @@ function Navbar() {
               <li>
                 <Link to="/contact" class="nav-link text-white">
                   <svg class="bi d-block mx-auto mb-1" width="30" height="30">
-                    <FileEarmarkTextFill size={30} />
+                    <EnvelopeFill size={30} />
                   </svg>
                   <p class="h4">Contact</p>
                 </Link>

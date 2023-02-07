@@ -15,17 +15,16 @@
 
 
 .box {
-  position: relative;
   width: 80%;
-  border-radius: 30%;
+  border-radius: 100%;
   padding: 10px;
-  background-color: rgb(133, 131, 131);
+  background-color: rgb(255, 255, 255);
 }
 
 .avatar-wobble {
   border-radius: 250px 750px 250px 750px /
                  750px 250px 750px 250px;
-  animation: wobble 15s ease-in-out alternate infinite;
+  animation: wobble 8s ease-in-out alternate infinite;
 }
 
 @keyframes wobble {
