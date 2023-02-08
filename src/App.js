@@ -7,13 +7,18 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import AOS from 'aos';
+import { useEffect } from 'react';
 import "aos/dist/aos.css";
 
 function App() {
 
-  AOS.init({
-    offset: 350
-  });
+  useEffect(() => {
+    AOS.init({
+      startEvent: 'load',
+      offset: 350
+    });
+    console.log(AOS.init())
+  }, [])
 
   window.addEventListener('load', AOS.refresh);
 

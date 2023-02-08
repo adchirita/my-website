@@ -26,8 +26,6 @@ function Contact() {
     const templateId = 'template_ldfq9ma';
     const serviceID = "service_52it05e";
     sendFeedback(serviceID, templateId, { from_name: formData.name, message_html: formData.query, email: formData.email })
-
-    console.log(formData);
   };
 
   const sendFeedback = (serviceID, templateId, variables) => {
@@ -66,7 +64,7 @@ function Contact() {
           </Form.Group>
           <Form.Group id="formGridQuery">
             <Form.Label className="text-white pt-3">Message</Form.Label>
-            <Form.Control onChange={handleChange} className="text-white border border-3 bg-transparent" name="query" as="textarea" rows={3} />
+            <Form.Control onChange={handleChange} className="text-white border border-3 bg-transparent" name="query" placeholder="Type your message" as="textarea" rows={3} />
           </Form.Group>
           <div className="text-center">
             <Button onClick={handleSubmit} className="mt-3" variant="outline-light" size="lg" type="submit">

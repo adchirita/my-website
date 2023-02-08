@@ -4,7 +4,7 @@ function Projects() {
 
   return (
     <main className="ProjectsContainer">
-      <h1 className="text-center pb-5 display-2 text-white glow"><strong className="fadeIn" id="first">Portfolio</strong></h1>
+      {/* <h1 className="text-center pb-5 display-2 text-white glow"><strong className="fadeIn" id="first">Portfolio</strong></h1> */}
       <div className="PortfolioContainer">
         <div className="row g-5">
           <div className="col pe-5" data-aos="fade-right" data-aos-duration="800">
