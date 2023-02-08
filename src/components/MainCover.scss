@@ -47,3 +47,11 @@
     text-shadow: 0 0 20px #fff
   }
 }
+
+.btn {
+  transition: transform .2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

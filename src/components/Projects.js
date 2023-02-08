@@ -1,4 +1,5 @@
 import './Projects.scss';
+import { Link } from 'react-router-dom';
 
 function Projects() {
 
@@ -8,7 +9,7 @@ function Projects() {
       <div className="PortfolioContainer">
         <div className="row g-5">
           <div className="col pe-5" data-aos="fade-right" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/adventure_scribe" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/Adventure.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">Adventure Scribe</h4>
               <div className="card-body">
@@ -26,10 +27,10 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="col ps-5" data-aos="fade-left" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/Jungle" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/Jungle.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">Jungle</h4>
               <div className="card-body">
@@ -46,13 +47,13 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
         <div className="row g-5 py-5">
           <div className="col pe-5" data-aos="fade-right" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/scheduler" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/Scheduler.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">Interview Scheduler</h4>
               <div className="card-body">
@@ -71,11 +72,11 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col ps-5" data-aos="fade-left" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/bazaar" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/Bazaar.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">Bazaar</h4>
               <div className="card-body">
@@ -92,13 +93,13 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
 
         <div className="row g-5">
           <div className="col pe-5" data-aos="fade-right" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/tweeter" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/Tweeter.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">Tweeter</h4>
               <div className="card-body">
@@ -116,11 +117,11 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="col ps-5" data-aos="fade-left" data-aos-duration="800">
-            <div className="card text-white bg-dark">
+            <Link to="https://github.com/Pitching/TinyApp" target="_blank" rel="noreferrer" className="card text-white bg-dark">
               <img src={require('../images/TinyApp.png')} className="card-img-top ImageCard" alt=""></img>
               <h4 className="card-title text-center pt-3 fw-bold">TinyApp</h4>
               <div className="card-body">
@@ -136,7 +137,7 @@ function Projects() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
