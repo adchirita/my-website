@@ -17,3 +17,13 @@
 .navIcon:hover {
   transform: scale(1.2);
 }
+
+.Logo {
+  width: 20%;
+  opacity: 90%;
+}
+
+.Logo:hover {
+  transform: rotate(180deg);
+  box-shadow: 2px 2px 10px 2px white;
+}

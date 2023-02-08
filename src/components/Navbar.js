@@ -8,12 +8,11 @@ function Navbar() {
       <div className="py-2 NavHeader">
         <div className="px-5">
           <div className="d-flex align-items-center">
-            <Link to="/" className="me-auto text-white text-decoration-none">
-              <svg className="" width="40" height="32" role="img" aria-label="Bootstrap">
-
-              </svg>
-              Andrei Chirita
+            <div class="me-auto">
+            <Link to="/">
+                <img class="Logo" src={require('../images/Sig.png')} />
             </Link>
+            </div>
 
             <ul className="nav">
               <li>
