@@ -17,7 +17,7 @@ function Navbar() {
 
             <ul className="nav">
               <li>
-                <Link to="/about" className="nav-link text-white">
+                <Link to="/about" className="nav-link text-white navIcon">
                   <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                     <FilePerson size={30} />
                   </svg>
@@ -25,7 +25,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a download="Andrei_Chirita.pdf" href={require("../images/Resume.pdf")} className="nav-link text-white">
+                <a download="Andrei_Chirita.pdf" href={require("../images/Resume.pdf")} className="nav-link text-white navIcon">
                   <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                     <FileEarmarkTextFill size={30} />
                   </svg>
@@ -33,7 +33,7 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <Link to="/projects" className="nav-link text-white">
+                <Link to="/projects" className="nav-link text-white navIcon">
                   <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                     <CollectionFill size={30} />
                   </svg>
@@ -41,7 +41,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="nav-link text-white">
+                <Link to="/contact" className="nav-link text-white navIcon">
                   <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                     <EnvelopeFill size={30} />
                   </svg>

@@ -16,7 +16,7 @@ function Description() {
           testing, I found a true passion for programming and look to find a fulfilling role as a full-stack web developer where
           I can grow my skills and contribute efficiently to something bigger. </p>
           <br />
-          <Link to="/projects" className="btn btn-lg btn-light fw-bold border-white bg-white fadeIn" id="third">Check out some of my projects</Link>
+          <Link to="/projects" className="btn btn-lg btn-light fw-bold border-white fadeIn" id="third">Check out some of my projects</Link>
       </div>
     </main>
   )

@@ -12,7 +12,7 @@ function MainCover() {
           <br />my development process to avoid testing headaches down the road. I am passionate about learning
           <br />various technologies to add to my tech stack and have no trouble staying up to date on the latest tech.</p>
         <br />
-        <Link to="/about" className="btn btn-lg btn-light fw-bold border-white bg-white fadeIn" id="third">Learn more about me</Link>
+        <Link to="/about" className="btn btn-lg btn-light fw-bold border-white fadeIn" id="third">Learn more about me</Link>
       </div>
       <div className="DivContainer px-5 fadeIn"  id="fourth">
         <div>
