@@ -11,6 +11,7 @@ import { useEffect, useState } from 'react';
 import "aos/dist/aos.css";
 
 function App() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
     AOS.init({
@@ -24,17 +25,19 @@ function App() {
 
   return (
     <main>
-      <Navbar />
-      <Routes>
+      <Navbar setIsNavExpanded={setIsNavExpanded} isNavExpanded={isNavExpanded}/>
+      { isNavExpanded ? null : 
+            <Routes>
 
-        <Route path="/" element={<MainCover />} />
+            <Route path="/" element={<MainCover />} />
+    
+            <Route path="/about" element={<About />} />
+    
+            <Route path="/projects" element={<Projects />} />
+    
+            <Route path="/contact" element={<Contact />} />
+          </Routes>}
 
-        <Route path="/about" element={<About />} />
-
-        <Route path="/projects" element={<Projects />} />
-
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
     </main>
   );
 }

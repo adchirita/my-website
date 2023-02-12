@@ -46,15 +46,20 @@
   .navigation-menu ul {
     top: 100px;
     position: absolute;
+    align-items: center;
     left: 0;
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100vh;
     background-image: linear-gradient(to right, #55585c 30%, #212529);
     display: none;
   }
   .navigation-menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
+    scale: 1.2;
   }
   .navigation-menu.expanded ul {
     display: block;

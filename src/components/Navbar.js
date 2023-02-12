@@ -3,8 +3,9 @@ import { CollectionFill, FileEarmarkTextFill, FilePerson, EnvelopeFill, List } f
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function Navbar() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+function Navbar(props) {
+  const setIsNavExpanded = props.setIsNavExpanded;
+  const isNavExpanded = props.isNavExpanded;
 
   return (
       <nav className="py-2 px-5 NavHeader d-flex align-items-center">
@@ -19,7 +20,7 @@ function Navbar() {
         <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul className="nav pt-2">
             <li>
-              <Link to="/about" className="nav-link text-white navIcon">
+              <Link to="/about" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
                 <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                   <FilePerson size={30} />
                 </svg>
@@ -35,7 +36,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <Link to="/projects" className="nav-link text-white navIcon">
+              <Link to="/projects" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
                 <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                   <CollectionFill size={30} />
                 </svg>
@@ -43,7 +44,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="nav-link text-white navIcon">
+              <Link to="/contact" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
                 <svg className="bi d-block mx-auto mb-1" width="30" height="30">
                   <EnvelopeFill size={30} />
                 </svg>
