@@ -7,7 +7,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About/About';
 import AOS from 'aos';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import "aos/dist/aos.css";
 
 function App() {
@@ -24,9 +24,7 @@ function App() {
 
   return (
     <main>
-      <nav>
-        <Navbar />
-      </nav>
+      <Navbar />
       <Routes>
 
         <Route path="/" element={<MainCover />} />
