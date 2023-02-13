@@ -63,21 +63,27 @@
 
 @media screen and (max-width: 992px) {
   .boxContainer {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-}
-
-@media screen and (max-width: 840px) {
-  .boxContainer {
     margin-left: 150px;
     margin-right: 150px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .boxContainer {
     margin-left: 100px;
     margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .boxContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .mobile-text {
+    font-size: 0.95rem;
+  }
+  .mobile-text-button {
+    font-size: 1.2rem;
   }
 }

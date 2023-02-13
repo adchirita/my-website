@@ -50,7 +50,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="container w-50 fadeIn" id="fourth">
+      <div className="container w-75 fadeIn" id="fourth">
         <Form>
           <Form.Group controlId="formGridName">
             <Form.Label className="text-white">Name</Form.Label>
