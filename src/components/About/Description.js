@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
+import './Description.scss';
 
 function Description() {
   return (
-    <main className="d-flex flex-row justify-content-center align-items-center text-light">
-      <div className="px-5">
+    <main className="px-5 text-light Description">
         <h1 className="display-2 glow"><strong className="fadeIn" id="first">About</strong></h1>
         <br />
         <p className="lead text-start fadeIn" id="second">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.
@@ -17,7 +17,6 @@ function Description() {
           I can grow my skills and contribute efficiently to something bigger. </p>
           <br />
           <Link to="/projects" className="btn btn-lg btn-light fw-bold border-white fadeIn" id="third">Check out some of my projects</Link>
-      </div>
     </main>
   )
 }
