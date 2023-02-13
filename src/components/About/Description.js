@@ -3,7 +3,7 @@ import './Description.scss';
 
 function Description() {
   return (
-    <main className="px-5 text-light Description">
+    <main className="px-5 py-5 text-light Description">
         <h1 className="display-2 glow"><strong className="fadeIn" id="first">About</strong></h1>
         <br />
         <p className="lead text-start fadeIn" id="second">I am a motivated full-stack web developer with a passion for programming and computer software & hardware.

@@ -4,8 +4,8 @@ import './About.scss';
 
 function About() {
   return (
-    <div>
-      <div className="AboutContainer container-fluid d-xl-flex text-light align-items-center">
+    <div className="container-fluid">
+      <div className="AboutContainer d-xxl-flex text-light align-items-center">
         <Description />
         <TechStack />
       </div>
