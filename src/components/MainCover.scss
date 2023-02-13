@@ -1,17 +1,22 @@
 .MainWrapper {
   height: 100vh;
-  background-size: cover;
+  padding-top: 100px;
   background-image: linear-gradient(to right, #212529 40%, #ffffff00), url('../images/MainBackground.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.DivContainer {
-  padding-top: calc(100px);
+.Description {
+  margin-left: 60px;
 }
 
-
+.boxContainer {
+  margin-right: 60px;
+  margin-left: 150px;
+}
 
 .box {
-  width: 80%;
   padding: 10px;
   background-color: rgb(255, 255, 255);
 }
@@ -54,4 +59,25 @@
 
 .btn:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 992px) {
+  .boxContainer {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .boxContainer {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .boxContainer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }

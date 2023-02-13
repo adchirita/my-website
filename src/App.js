@@ -9,6 +9,7 @@ import About from './components/About/About';
 import AOS from 'aos';
 import { useEffect, useState } from 'react';
 import "aos/dist/aos.css";
+import './components/MainCover.scss'
 
 function App() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -28,7 +29,7 @@ function App() {
       <Navbar setIsNavExpanded={setIsNavExpanded} isNavExpanded={isNavExpanded}/>
       { isNavExpanded ? null : 
             <Routes>
-
+                
             <Route path="/" element={<MainCover />} />
     
             <Route path="/about" element={<About />} />
