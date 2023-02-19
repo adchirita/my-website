@@ -8,15 +8,15 @@ function Navbar(props) {
   const isNavExpanded = props.isNavExpanded;
 
   return (
-    <nav className="py-2 NavHeader d-flex align-items-center">
+    <nav className="py-2 NavHeader d-flex align-items-center container-flex">
       <Link to="/">
         <img className="Logo" src={require('../images/Sig.png')} alt="MainLogo" />
       </Link>
-      <Link to="/" className="hamburger">
+      <Link to="/" className="hamburger mx-auto">
         <img className="SigLogoName" src={require('../images/SigName.png')} alt="MainLogo" />
       </Link>
-      <div className="mb-1 pt-2 text-white hamburger" width="40" height="50" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
-        {isNavExpanded ? <XLg size={40} /> : <img className="SigLogo turned" src={require('../images/SigLogo.png')} alt="SigLogo" />}
+      <div className="mb-2 pt-2 text-white hamburger mx-auto" width="40" height="50" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
+        {isNavExpanded ? <XLg className="XLogo" size={40} /> : <img className="SigLogo turned" src={require('../images/SigLogo.png')} alt="SigLogo" />}
       </div>
       <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul className="nav pt-2">

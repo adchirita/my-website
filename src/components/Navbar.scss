@@ -22,7 +22,7 @@
 .Logo {
   height: 55px;
   opacity: 90%;
-  padding-left: 10px;
+  padding-left: 15px;
   transition: transform .2s;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .Logo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .navigation-menu {
@@ -39,21 +39,25 @@
 }
 
 .SigLogo {
-  width: 50%;
+  width: 60%;
+}
+
+.XLogo {
+  margin-right: 28px;
 }
 
 .SigLogoName {
-  width: 50%;
+  width: 70%;
+  margin-left: 10px;
 }
 
 .hamburger {
-  position: absolute;
   display: none;
 }
 
 @media screen and (max-width: 768px) {
   .hamburger {
-    display: block;
+    display: flex;
   }
   .Logo {
     display: none;
