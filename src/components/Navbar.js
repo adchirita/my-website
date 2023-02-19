@@ -1,5 +1,5 @@
 import './Navbar.scss';
-import { CollectionFill, FileEarmarkTextFill, FilePerson, EnvelopeFill, List, XLg } from 'react-bootstrap-icons';
+import { XLg } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -8,15 +8,16 @@ function Navbar(props) {
   const isNavExpanded = props.isNavExpanded;
 
   return (
-    <nav className="py-2 px-5 NavHeader d-flex align-items-center">
+    <nav className="py-2 NavHeader d-flex align-items-center">
       <Link to="/">
-        <img className="Logo" src={require('../images/Sig.png')} />
+        <img className="Logo" src={require('../images/Sig.png')} alt="MainLogo" />
       </Link>
-      <button className="btn pt-2 text-white hamburger" type="button" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
-        <svg className="mb-1" width="40" height="40">
-          {isNavExpanded ? <XLg size={45} /> : <List size={45} />}
-        </svg>
-      </button>
+      <Link to="/" className="hamburger">
+        <img className="SigLogoName" src={require('../images/SigName.png')} alt="MainLogo" />
+      </Link>
+      <div className="mb-1 pt-2 text-white hamburger" width="40" height="50" onClick={() => { setIsNavExpanded(!isNavExpanded) }}>
+        {isNavExpanded ? <XLg size={40} /> : <img className="SigLogo turned" src={require('../images/SigLogo.png')} alt="SigLogo" />}
+      </div>
       <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul className="nav pt-2">
           <li>
