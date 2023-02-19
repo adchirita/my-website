@@ -21,33 +21,21 @@ function Navbar(props) {
         <ul className="nav pt-2">
           <li>
             <Link to="/about" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
-              <svg className="bi d-block mx-auto mb-1" width="30" height="30">
-                <FilePerson size={30} />
-              </svg>
               <p className="h4">About</p>
             </Link>
           </li>
           <li>
             <a download="Andrei_Chirita.pdf" href={require("../images/Resume.pdf")} className="nav-link text-white navIcon">
-              <svg className="bi d-block mx-auto mb-1" width="30" height="30">
-                <FileEarmarkTextFill size={30} />
-              </svg>
               <p className="h4">Resume</p>
             </a>
           </li>
           <li>
             <Link to="/projects" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
-              <svg className="bi d-block mx-auto mb-1" width="30" height="30">
-                <CollectionFill size={30} />
-              </svg>
               <p className="h4">Projects</p>
             </Link>
           </li>
           <li>
             <Link to="/contact" className="nav-link text-white navIcon" onClick={() => { setIsNavExpanded(false) }}>
-              <svg className="bi d-block mx-auto mb-1" width="30" height="30">
-                <EnvelopeFill size={30} />
-              </svg>
               <p className="h4">Contact</p>
             </Link>
           </li>
