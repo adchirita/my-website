@@ -8,7 +8,6 @@
 }
 
 .PortfolioContainer {
-  overflow-x: hidden;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 2%;
@@ -18,7 +17,7 @@
 .card {
   box-shadow: 2px 2px 10px 2px white;
   transition: transform .2s;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .card:hover {
