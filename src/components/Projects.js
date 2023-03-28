@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Projects() {
 
   return (
-    <main className="ProjectsContainer">
+    <div className="ProjectsContainer">
       <h1 className="text-center pb-5 display-2 text-white"><strong className="fadeIn" id="first">Portfolio</strong></h1>
       <div className="PortfolioContainer">
         <div className="row g-5">
@@ -141,7 +141,7 @@ function Projects() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 

@@ -14,13 +14,10 @@ import './components/MainCover.scss'
 function App() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-  useEffect(() => {
-    AOS.init({
-      startEvent: 'load',
-      offset: 350
-    });
-    console.log(AOS.init())
-  }, [])
+  AOS.init({
+    startEvent: 'load',
+    offset: 350
+  });
 
   window.addEventListener('load', AOS.refresh);
 
