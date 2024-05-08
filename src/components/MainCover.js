@@ -16,7 +16,7 @@ function MainCover() {
             /></p></strong></h1>
           <br />
           <p className="lead fadeIn mobile-text" id="second">I am a motivated full-stack web developer with proficiency in Javascript, React, NodeJS, and Express
-            and am looking for a role where I can apply my knowledge and expertise as a Sr. QA Analyst to streamline
+            and am looking for a role where I can apply my knowledge and expertise as a QA Engineer to streamline
             my development process to avoid testing headaches down the road. I am passionate about learning
             various technologies to add to my tech stack and have no trouble staying up to date on the latest tech.</p>
           <br />

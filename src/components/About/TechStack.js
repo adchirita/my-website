@@ -37,7 +37,7 @@ function TechStack() {
           {<img className="stackIcon px-1" id="fourth" src={images['rails.svg']} alt=""/>}
           {<img className="stackIcon px-1" id="fourth" src={images['react.svg']} alt=""/>}
           {<img className="stackIcon px-1" id="fourth" src={images['sass.svg']} alt=""/>}
-          {<img className="stackIcon px-1" id="fourth" src={images['selenium.svg']} alt=""/>}
+          {<img className="stackIcon px-1" id="fourth" src={images['cypress.svg']} alt=""/>}
         </div>
       </div>
     </main>
