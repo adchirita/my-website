@@ -12,7 +12,7 @@ function Description() {
           methodologies, and have become very familiar with the software development lifecycle. <br/><br/>Served as one of the main testers
           to successfully deliver one of Bell's top 3 projects in 2020, in preparation for their new devices and modems to be
           linked with their Maximo database. I aim to take what I have learned as a QA Engineer and apply that to my software
-          development mentality, finding and stopping bugs before they reach the test environment. Having experienced automation
+          development mentality, finding and stopping bugs before they reach the production environment. Having experienced automation
           testing, I found a true passion for programming and look to find a fulfilling role as a full-stack web developer where
           I can grow my skills and contribute efficiently to something bigger. </p>
           <br />
